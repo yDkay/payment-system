@@ -1,0 +1,20 @@
+{
+  "name": "payment-system",
+  "version": "1.0.0",
+  "description": "Async Payment Processing Mini-System",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev:api": "cd backend && npm run dev",
+    "dev:web": "cd frontend && npm run dev",
+    "start:api": "cd backend && npm start",
+    "build:web": "cd frontend && npm run build",
+    "install:all": "npm install && npm install --workspace=backend && npm install --workspace=frontend"
+  },
+  "keywords": ["payment", "async", "javascript", "express", "react"],
+  "author": "",
+  "license": "MIT"
+}

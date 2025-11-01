@@ -1,0 +1,19 @@
+{
+  "name": "payment-system-backend",
+  "version": "1.0.0",
+  "description": "Async Payment Processing Backend API",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.1"
+  },
+  "keywords": ["payment", "api", "express", "async"],
+  "author": "",
+  "license": "MIT"
+}
