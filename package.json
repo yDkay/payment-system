@@ -14,7 +14,16 @@
     "build:web": "cd frontend && npm run build",
     "install:all": "npm install && npm install --workspace=backend && npm install --workspace=frontend"
   },
-  "keywords": ["payment", "async", "javascript", "express", "react"],
+  "keywords": [
+    "payment",
+    "async",
+    "javascript",
+    "express",
+    "react"
+  ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^15.10.0"
+  }
 }
