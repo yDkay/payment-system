@@ -1,0 +1,65 @@
+{
+  "payment_intent_id": "pi_fixture_001",
+  "jobs": [
+    {
+      "id": "pi_fixture_001_anti_fraud",
+      "payment_intent_id": "pi_fixture_001",
+      "type": "anti_fraud",
+      "name": "Anti-Fraud Check",
+      "description": "Analyzing transaction for fraud patterns",
+      "status": "completed",
+      "order": 1,
+      "started_at": "2026-01-01T00:00:01.000Z",
+      "completed_at": "2026-01-01T00:00:06.000Z",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pi_fixture_001_authorization",
+      "payment_intent_id": "pi_fixture_001",
+      "type": "authorization",
+      "name": "Payment Authorization",
+      "description": "Authorizing payment with card issuer",
+      "status": "completed",
+      "order": 2,
+      "started_at": "2026-01-01T00:00:01.500Z",
+      "completed_at": "2026-01-01T00:00:07.000Z",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pi_fixture_001_risk_assessment",
+      "payment_intent_id": "pi_fixture_001",
+      "type": "risk_assessment",
+      "name": "Risk Assessment",
+      "description": "Evaluating transaction risk score",
+      "status": "processing",
+      "order": 3,
+      "started_at": "2026-01-01T00:00:02.000Z",
+      "completed_at": null,
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pi_fixture_001_compliance_check",
+      "payment_intent_id": "pi_fixture_001",
+      "type": "compliance_check",
+      "name": "Compliance Verification",
+      "description": "Checking regulatory compliance",
+      "status": "pending",
+      "order": 4,
+      "started_at": null,
+      "completed_at": null,
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "pi_fixture_001_capture",
+      "payment_intent_id": "pi_fixture_001",
+      "type": "capture",
+      "name": "Payment Capture",
+      "description": "Capturing authorized payment",
+      "status": "pending",
+      "order": 5,
+      "started_at": null,
+      "completed_at": null,
+      "created_at": "2026-01-01T00:00:00.000Z"
+    }
+  ]
+}
