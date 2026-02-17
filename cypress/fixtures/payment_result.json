@@ -1,9 +1,0 @@
-{
-  "payment_id": "pay_fixture_001",
-  "payment_intent_id": "pi_fixture_001",
-  "status": "succeeded",
-  "captured_amount": 2599,
-  "auth_code": "FIX789",
-  "receipt_url": "https://example.com/receipt/pay_fixture_001",
-  "created_at": "2026-01-01T00:00:10.000Z"
-}
